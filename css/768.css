@@ -1,15 +1,15 @@
 /* TABLETS */
-@media screen and (min-width: 768px) { 
-	
-    
+@media screen and (min-width: 768px) {
+
+
     /* SIDEBAR */
-    .with-sidebar { 
+    .with-sidebar {
         float: left; width: 61%;
         }
-    .sidebar { 
+    .sidebar {
         float: left; width: 34%; margin-left: 5%; margin-top: 1.4em;
         }
-	
+
     /* custom scrollbars for webkit browsers */
     .cd-folding-panel *::-webkit-scrollbar {
         width: 8px;
@@ -18,11 +18,11 @@
         border-radius: 4px;	background-color: rgba(28, 38, 43, 0.25);;
         }
     .cd-folding-panel *::-webkit-scrollbar:horizontal {
-        height: 8px; 
+        height: 8px;
         }
-	
+
     /* TYPOGRAPHY */
-	h1 { 
+	h1 {
 		font-size: 3em;
 		}
     h2 {
@@ -35,11 +35,11 @@
         font-size: 1.0em;
         }
 	/* Forms */
-	input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]), 
+	input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):not([type=checkbox]),
 	select {
-		max-width: 360px; 
+		max-width: 360px;
 		}
-    
+
 	/* HEADER */
 	.site-title {
 		display: block; position: static; width: auto; line-height: 1.2; text-align: center; padding: .8em;
@@ -50,18 +50,18 @@
 	.nav-menu:not(.menu-with-icons) ul {
 		margin-bottom: 1.3em;
 		}
-	
-	/* PAGES */	
+
+	/* PAGES */
 	.hentry {
 		padding: 0 0 4em 0;
 		}
 	.entry-header {
-		padding-top: 3em; 
+		padding-top: 3em;
 		}
 	.entry-content {
-		margin-top: 2em; 
+		margin-top: 2em;
 		}
-	
+
     /* 404 */
     .http-alert h1 {
         font-size: 14em;
@@ -73,18 +73,18 @@
         }
     blockquote:before {
         font-size: 1.0em;
-        }	
-    
+        }
+
     /* MEDIA GRID */
 	.media-grid .media-cell {
  		float: left; width: 25%; padding: 0 20px; margin-bottom: 20px;
 		}
-	
+
 	/* MEDIA BOX */
 	.media-grid .media-cell {
  		float: left; width: 50%;
 		}
-    
+
 	/* PORTFOLIO SINGLE */
 	.portfolio-single .entry-content img,
 	.portfolio-single .entry-content .fluid-width-video-wrapper,
@@ -98,26 +98,26 @@
 	.mini-text .button{
 		margin: 3em 0;
 		}
-	
+
 	/* BLOG */
 	.blog-regular .entry-title {
 		font-size: 2.4em;
 		}
 	.content-area:not(.with-sidebar) .post .entry-content > p img:not(.alignleft):not(.alignright),
 	.content-area:not(.with-sidebar) .post .entry-content .gallery {
-		width: 132%; max-width: none; margin-left: -16%; 
+		width: 132%; max-width: none; margin-left: -16%;
 		}
-		
-	/* format-link */	
+
+	/* format-link */
 	.format-link .entry-content  > p:first-child a:first-child {
 		font-size: 1.2em;
 		}
-		
+
 	/* BLOG SINGLE */
 	.related-posts .media-grid .media-cell {
  		float: left; width: 33.33%;
 		}
-	
+
 	/* COMMENTS */
     .comments-area {
         padding: 2em 0;
@@ -141,10 +141,10 @@
     .comments-area ol ol {
         margin-left: 8%
         }
-	
+
 	/* Comment Form */
-    #respond form p { 
-        margin-bottom: 0; 
+    #respond form p {
+        margin-bottom: 0;
         }
     .comment-form-author,
     .comment-form-email,
@@ -155,39 +155,44 @@
         width: 34%; margin-right: 0;
         }
     .form-allowed-tags,
-    .form-submit { 
-        clear: left; 
+    .form-submit {
+        clear: left;
         }
     .form-submit {
         padding-top: 2em;
         }
-		
+
 	/* FOOTER WIDGETS */
-    .site-footer .widget-area .widget { 
+    .site-footer .widget-area .widget {
         width: 33.3%; float: left; padding: 0 1.5em 1em 1em;
-        }	
-    .site-footer .widget-area .widget:first-child { 
+        }
+    .site-footer .widget-area .widget:first-child {
         padding-left: 0;
         }
-    .site-footer .widget-area .widget:nth-child(3n) { 
+    .site-footer .widget-area .widget:nth-child(3n) {
         padding-right: 0;
         }
-		
+
 	/* Social Feed */
 	.social-feed ul li {
-		width: 50%; 
+		width: 50%;
 		}
 	.social-feed ul li img {
 		max-width: 100%; width: 100%;
 		}
-		
+
 }
 
 
 
-/* DESKTOPS */	
-@media screen and (min-width: 992px) { 
-	
+/* DESKTOPS */
+@media screen and (min-width: 992px) {
+
+	.resume-download {
+		padding-left: 3px !important;
+		padding-right: 3px !important;
+	}
+
 	/* HEADER */
 	.header {
 		padding: 4% 0;
@@ -198,8 +203,8 @@
 	.one-page-layout .mouse-scroll {
 		display: inline-block;
 		}
-	
-	
+
+
 	/* PAGE BOTTOM */
 	.page-bottom .map,
 	.page-bottom .map-canvas {
@@ -222,13 +227,13 @@
 	.page-bottom .col-md-12 .fun-fact:last-child {
 		padding: 3em 2em;
 		}
-	
-	
+
+
 	/* SIDEBAR */
-    .with-sidebar { 
+    .with-sidebar {
         width: 68%;
         }
-    .sidebar { 
+    .sidebar {
         width: 25.8%; margin-left: 6%;
         }
 
@@ -240,12 +245,12 @@
 	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
 		padding-left: 30px; padding-right: 30px;
 		}
-	
+
 	/* SECTION TITLE */
-    .section-title { 
-		margin: 3em 0 2em; 
+    .section-title {
+		margin: 3em 0 2em;
 		}
-	
+
 	/* MEDIA GRID */
 	.media-grid {
 		margin-left: -20px; margin-right: -20px;
@@ -253,13 +258,13 @@
 	.cd-fold-content .media-grid {
 		width: 640px; margin-left: auto; margin-right: auto;
 		}
-    
+
     /* SERVICES */
     .service {
         padding: 0.6em 0 0; text-align: center;
     	}
     .service i,
-	.service img { 
+	.service img {
         float: none; width: auto; max-width: 84px; line-height: 1; font-size: 64px; margin-bottom: 18px;
     	}
     .service p {
@@ -268,25 +273,25 @@
     .service h4 {
         margin-left: 0; margin-bottom: .8em;
     	}
-	
+
 	/* CLIENTS */
 	.client img {
 		max-height: 50px;
 		}
-	
+
 	/* BLOG */
 	.content-area:not(.with-sidebar) .post .entry-content > p img:not(.alignleft):not(.alignright),
 	.content-area:not(.with-sidebar) .post .entry-content .gallery {
-		width: 158%; margin-left: -29%; 
+		width: 158%; margin-left: -29%;
 		}
 	/* BLOG SINGLE */
-	.blog-single .entry-content { 
-		max-width: 540px; 
+	.blog-single .entry-content {
+		max-width: 540px;
 		}
-		
+
 	/* Social Feed Widget */
 	.social-feed ul li {
-		width: 33.3%; 
+		width: 33.3%;
 		}
-		   
+
 }
